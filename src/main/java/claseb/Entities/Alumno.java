@@ -61,8 +61,19 @@ public class Alumno {
         this.listaMatriculas = listaMatriculas;
     }
 
+
+    //para crear un alumno sin matriculas hace falta crear un constructor sin listaMatriculas
+    
+
     public Integer getId() {
         return id;
+    }
+
+    public Alumno(String nombre, Integer edad, String dni, ColorPelo colorPelo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.dni = dni;
+        this.colorPelo = colorPelo;
     }
 
     public void setId(Integer id) {

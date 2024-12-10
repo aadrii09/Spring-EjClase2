@@ -1,5 +1,9 @@
 package claseb.Repositories;
 
-public interface AsignaturaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import claseb.Entities.Asignatura;
+
+public interface AsignaturaRepository extends JpaRepository<Asignatura, Integer> {
 
 }

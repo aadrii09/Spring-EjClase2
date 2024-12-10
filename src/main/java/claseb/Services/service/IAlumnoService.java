@@ -1,5 +1,10 @@
 package claseb.Services.service;
 
-public class IAlumnoService {
+import claseb.Entities.Alumno;
+
+public interface IAlumnoService {
+
+    
+public void crearAlumno(Alumno alumno);
     
 }
